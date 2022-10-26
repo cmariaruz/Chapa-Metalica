@@ -32,7 +32,6 @@ public class Main {
             ArrayList<Double> segundoQuadrante = getProximoPonto(tempMedia1, primeiroQuadrante);
             double tempMedia2 = getTemperaturaMedia(segundoQuadrante);
 
-
             System.out.println(segundoQuadrante);
 
             tempAbsoluta = getErro(tempMedia1, tempMedia2);
