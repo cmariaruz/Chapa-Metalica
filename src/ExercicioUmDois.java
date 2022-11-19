@@ -1,5 +1,5 @@
 
-public class ExercicioUm {
+public class ExercicioUmDois {
 
 
     //CONSIDERACOES
