@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67097fc5-9118-40c9-aa78-ed7b3cf10c4c" name="Changes" comment="primeiro exercicio da chapa">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapaMetalica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExercicioTres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExercicioUm.java" afterDir="false" />
+    <list default="true" id="67097fc5-9118-40c9-aa78-ed7b3cf10c4c" name="Changes" comment="nova versao exercicioChapa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioTres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioUmDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioUmDois.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/merli/Documents/Ada/Logica Programacao/ChapaMetalica"
+    "last_opened_file_path": "C:/Users/merli/Documents/Ada/POO I/UPSK"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666814091438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nova versao exercicioChapa">
+      <created>1668895572184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668895572184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nova versao exercicioChapa">
+      <created>1668895618473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668895618473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,13 +94,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro exercicio da chapa" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro exercicio da chapa" />
+    <MESSAGE value="nova versao exercicioChapa" />
+    <option name="LAST_COMMIT_MESSAGE" value="nova versao exercicioChapa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExercicioUm.java</url>
+          <url>file://$PROJECT_DIR$/src/ExercicioUmDois.java</url>
           <line>20</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -121,9 +133,9 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ExercicioUm.java</url>
+          <url>file://$PROJECT_DIR$/src/ExercicioUmDois.java</url>
           <line>42</line>
-          <properties class="ExercicioUm" method="getErro">
+          <properties class="ExercicioUmDois">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

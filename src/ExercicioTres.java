@@ -2,15 +2,16 @@ import java.nio.file.LinkPermission;
 import java.util.Scanner;
 
 public class ExercicioTres {
-    final static double ERRO_MAXIMO = 0;
-    final static int ITERACOES_MAXIMAS = 100;
     static int iteracoes = 0;
+    static int erroMaximo;
+    static int casasDecimais;
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
 
         int qtdLinhas;
         int qtdColunas;
+        int iteracoesMaximas;
         double primeiraLinha;
         double ultimaLinha;
         double primeiraColuna;
@@ -31,6 +32,16 @@ public class ExercicioTres {
         System.out.print("Ultima coluna:");
         ultimaColuna = input.nextDouble();
 
+        System.out.println("Qual o número maximo de iteracoes?");
+        iteracoesMaximas = input.nextInt();
+
+        System.out.println("Qual o erro maximo aceitavel?");
+        erroMaximo = input.nextInt();
+
+        System.out.println("Quantas casas decimais de precisão?");
+        casasDecimais = input.nextInt();
+
+
         ChapaMetalica primeiroQuadrante = new ChapaMetalica(qtdLinhas, qtdColunas, primeiraLinha,ultimaLinha,primeiraColuna,ultimaColuna);
 
         double tempAbsoluta;
@@ -43,12 +54,16 @@ public class ExercicioTres {
             primeiroQuadrante = segundoQuadrante;
             iteracoes = iteracoes+1;
             System.out.println("numero de iteracoes: " + iteracoes);
-        }while (tempAbsoluta>ERRO_MAXIMO);
+        }while (tempAbsoluta>erroMaximo && iteracoes<iteracoesMaximas);
     }
 
     public static double getErro(double tempMediaPrimeiroQuadrante, double tempMediaSegundoQuadrante){
         double tempAbsoluta = Math.abs(tempMediaPrimeiroQuadrante-tempMediaSegundoQuadrante);
-        System.out.println("Temp absoluta: "+tempAbsoluta);
+        System.out.printf(printPrecisao("\"Temp absoluta: %.#f \n",casasDecimais),tempAbsoluta);
         return tempAbsoluta;
+    }
+
+    public static String printPrecisao(String texto, int CasasDecimais){
+        return texto.replace("%.#","%." + CasasDecimais);
     }
 }

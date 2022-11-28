@@ -32,7 +32,7 @@ public class ExercicioUmDois {
             primeiroQuadrante = segundoQuadrante;
             iteracoes = iteracoes+1;
            System.out.println("numero de iteracoes: " + iteracoes);
-        }while (tempAbsoluta>ERRO_MAXIMO || iteracoes<ITERACOES_MAXIMAS);
+        }while (tempAbsoluta>ERRO_MAXIMO && iteracoes<ITERACOES_MAXIMAS);
     }
 
     public static double getErro(double tempMediaPrimeiroQuadrante, double tempMediaSegundoQuadrante){
